@@ -1,0 +1,28 @@
+header {
+  padding: 30px 20%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 32px -12px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+.logo h1 {
+  font-weight: 900;
+}
+
+.logo .nu {
+  color: #fd377e;
+}
+
+nav button {
+  background-color: #e9ecef;
+  border: none;
+  padding: 10px 15px;
+  color: #5b6166;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+}

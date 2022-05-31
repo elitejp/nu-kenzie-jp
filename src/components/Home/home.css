@@ -1,0 +1,51 @@
+main {
+  padding: 40px 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .form-total,
+main .list-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+main .form-total {
+  width: 33%;
+}
+
+main .list-filter {
+  width: 63%;
+}
+
+main .list-filter nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .list-filter nav h2 {
+  font-size: 16px;
+}
+
+main .list-filter nav .btn-filters {
+  display: flex;
+  gap: 10px;
+}
+
+main nav .selected-filter {
+  background-color: #fd377e;
+  color: white;
+}
+
+main ul {
+  display: flex;
+  margin-top: 34px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+main ul > img {
+  width: 100%;
+}
